@@ -3,8 +3,8 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"math"
 	"os"
-	"sort"
 	"strconv"
 	"strings"
 )
@@ -47,7 +47,7 @@ func main() {
 	// Calculate and print the average if numbers are available
 	if len(numbers) > 0 {
 		avg := Median(numbers)
-		fmt.Printf("Median: %.2f\n", avg)
+		fmt.Println("Median:", int(math.Round(avg)))
 	} else {
 		fmt.Println("No numbers found to calculate the median.")
 	}
@@ -56,4 +56,3 @@ func main() {
 
 
 
-func Variance(input []float64)float64{}
