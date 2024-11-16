@@ -14,3 +14,23 @@ Average=
 Number of values
 Sum of all values
 ​
+
+Average=
+n
+∑x
+i
+​
+
+​
+
+Where:
+
+∑
+𝑥
+𝑖
+∑x
+i
+​
+= Sum of all values
+𝑛
+n = Number of values
